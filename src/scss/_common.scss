@@ -22,6 +22,8 @@ body {
 
 img {
   object-fit: contain;
+  max-width: 100%; /* Установка максимальной ширины картинки */
+  height: auto; /* Автоматическое изменение высоты для сохранения пропорций */
 }
 
 h1,
@@ -79,6 +81,12 @@ picture {
 
 .container {
   max-width: $containerMaxWidth;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.second-container {
+  max-width: 1605px;
   margin: 0 auto;
   padding: 0 15px;
 }
